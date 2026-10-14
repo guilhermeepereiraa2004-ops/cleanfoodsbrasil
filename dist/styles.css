@@ -185,9 +185,12 @@ img { display: block; max-width: 100%; }
 .products__heading { max-width: 780px; margin-bottom: 62px; }
 .products__heading p { max-width: 540px; color: rgba(255,255,255,.55); font-size: 13px; line-height: 1.8; }
 .menu-carousel { position: relative; width: 100%; overflow: hidden; padding: 4px 0 26px; mask-image: linear-gradient(90deg, transparent 0, #000 4%, #000 96%, transparent 100%); }
-.menu-track { display: flex; width: max-content; gap: 18px; animation: menuLoop 34s linear infinite; will-change: transform; }
+.menu-track { display: flex; width: max-content; gap: 18px; animation: menuLoop 26s linear infinite; will-change: transform; }
 .menu-carousel:hover .menu-track { animation-play-state: paused; }
-@keyframes menuLoop { to { transform: translateX(calc(-50% - 9px)); } }
+@keyframes menuLoop {
+  from { transform: translate3d(calc(-50% - 9px), 0, 0); }
+  to { transform: translate3d(0, 0, 0); }
+}
 .menu-card { flex: 0 0 clamp(300px, 29vw, 360px); overflow: hidden; border: 1px solid var(--line); border-radius: 24px; background: #161614; transition: border-color .25s ease, transform .25s ease; }
 .menu-card:hover { border-color: rgba(248,201,0,.65); transform: translateY(-5px); }
 .menu-card__image { position: relative; height: 330px; background-image: url("assets/menu-dishes.png"); background-repeat: no-repeat; background-size: 200% 200%; }
