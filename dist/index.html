@@ -15,17 +15,6 @@
   <body>
     <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
-    <div class="topline" aria-hidden="true">
-      <div class="topline__track">
-        <span>FEITO NO INTERIOR DE SÃO PAULO</span><i></i>
-        <span>COMIDA DE VERDADE</span><i></i>
-        <span>PRONTA EM MINUTOS</span><i></i>
-        <span>SEM COMPLICAÇÃO</span><i></i>
-        <span>FEITO NO INTERIOR DE SÃO PAULO</span><i></i>
-        <span>COMIDA DE VERDADE</span><i></i>
-      </div>
-    </div>
-
     <header class="site-header" data-header>
       <div class="container header__inner">
         <a class="brand" href="#inicio" aria-label="Clean Foods Brasil — início">
@@ -137,27 +126,35 @@
             <p>Uma refeição gostosa, equilibrada e pronta quando você precisa. Sem discurso complicado. Sem tempo perdido.</p>
           </div>
 
-          <div class="bento-grid">
-            <article class="bento-card bento-card--large reveal">
-              <span class="bento-card__number">01</span>
-              <div class="plate-orbit" aria-hidden="true"><div></div><i></i><b></b></div>
-              <div class="bento-card__content"><small>PRATICIDADE</small><h3>Seu tempo vale mais.</h3><p>Do freezer à mesa em cerca de 6 minutos. Menos preparo, mais vida acontecendo.</p></div>
+          <div class="clean-system">
+            <article class="clean-system__spotlight reveal">
+              <div class="clean-system__spotlight-image" aria-hidden="true"></div>
+              <div class="clean-system__spotlight-shade" aria-hidden="true"></div>
+              <div class="clean-system__spotlight-top"><span>PRATICIDADE REAL</span><i>01</i></div>
+              <div class="clean-system__spotlight-copy">
+                <div class="clean-system__time"><strong>6</strong><span>min</span></div>
+                <h3>Do freezer<br />à mesa.</h3>
+                <p>Menos tempo preparando. Mais tempo vivendo o que importa.</p>
+              </div>
             </article>
-            <article class="bento-card bento-card--yellow reveal">
-              <span class="bento-card__number">02</span>
-              <div class="bento-card__content"><small>INGREDIENTES</small><h3>Rótulo limpo.<br />Sabor de verdade.</h3><p>Sem conservantes, sem glúten e sem lactose.</p></div>
-              <div class="scribble" aria-hidden="true">clean!</div>
-            </article>
-            <article class="bento-card reveal">
-              <span class="bento-card__number">03</span>
-              <div class="bento-card__content"><small>CURADORIA</small><h3>Nutrição com propósito.</h3><p>Receitas desenvolvidas com olhar técnico para apoiar diferentes objetivos e rotinas.</p></div>
-              <div class="mini-chart" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
-            </article>
-            <article class="bento-card bento-card--wide reveal">
-              <span class="bento-card__number">04</span>
-              <div class="bento-card__content"><small>CONSERVAÇÃO</small><h3>Congelada no tempo.<br />Fresca no sabor.</h3><p>O congelamento preserva a praticidade e mantém cada refeição pronta para o momento certo.</p></div>
-              <div class="snowflake" aria-hidden="true">✣</div>
-            </article>
+
+            <div class="clean-system__list reveal">
+              <article class="clean-point">
+                <span class="clean-point__number">02</span>
+                <div><small>INGREDIENTES</small><h3>Rótulo limpo.<br />Sabor de verdade.</h3><p>Sem conservantes, sem glúten e sem lactose.</p></div>
+                <b aria-hidden="true">↗</b>
+              </article>
+              <article class="clean-point">
+                <span class="clean-point__number">03</span>
+                <div><small>CURADORIA</small><h3>Nutrição com propósito.</h3><p>Receitas pensadas para diferentes objetivos e rotinas.</p></div>
+                <b aria-hidden="true">↗</b>
+              </article>
+              <article class="clean-point">
+                <span class="clean-point__number">04</span>
+                <div><small>CONSERVAÇÃO</small><h3>Congelada no tempo.<br />Fresca no sabor.</h3><p>Praticidade preservada para o momento certo.</p></div>
+                <b aria-hidden="true">↗</b>
+              </article>
+            </div>
           </div>
         </div>
       </section>
@@ -170,24 +167,22 @@
             <p>Opções pensadas para diferentes momentos do seu dia — sempre com o padrão Clean Foods.</p>
           </div>
 
-          <div class="product-grid">
-            <article class="product-card reveal" data-tilt>
-              <div class="product-card__image product-card__image--one"><span class="product-card__badge">EQUILÍBRIO</span></div>
-              <div class="product-card__content"><div><small>LEVE &amp; COMPLETA</small><h3>Para cuidar da rotina</h3></div><span class="product-card__arrow" aria-hidden="true">↗</span></div>
-            </article>
-            <article class="product-card reveal" data-tilt>
-              <div class="product-card__image product-card__image--two"><span class="product-card__badge">PERFORMANCE</span></div>
-              <div class="product-card__content"><div><small>PROTEÍNA &amp; ENERGIA</small><h3>Para ir mais longe</h3></div><span class="product-card__arrow" aria-hidden="true">↗</span></div>
-            </article>
-            <article class="product-card reveal" data-tilt>
-              <div class="product-card__image product-card__image--three"><span class="product-card__badge">LOW CARB</span></div>
-              <div class="product-card__content"><div><small>SABOR &amp; LEVEZA</small><h3>Para o seu objetivo</h3></div><span class="product-card__arrow" aria-hidden="true">↗</span></div>
-            </article>
+          <div class="menu-carousel reveal" aria-label="Opções do cardápio Clean Foods em movimento automático">
+            <div class="menu-track">
+              <article class="menu-card"><div class="menu-card__image menu-card__image--one"><span>FRANGO</span></div><div class="menu-card__body"><small>REFEIÇÃO CLEAN FOODS</small><h3>Frango Desfiado com Arroz Integral e Legumes</h3><p>Leve, completa e pronta para a sua rotina.</p></div></article>
+              <article class="menu-card"><div class="menu-card__image menu-card__image--two"><span>PATINHO</span></div><div class="menu-card__body"><small>REFEIÇÃO CLEAN FOODS</small><h3>Patinho Desfiado com Purê de Batata Doce e Legumes</h3><p>Proteína, cremosidade e vegetais em equilíbrio.</p></div></article>
+              <article class="menu-card"><div class="menu-card__image menu-card__image--three"><span>PATINHO</span></div><div class="menu-card__body"><small>REFEIÇÃO CLEAN FOODS</small><h3>Escondidinho de Mandioca com Patinho Moído</h3><p>Comida de verdade com aquele sabor de casa.</p></div></article>
+              <article class="menu-card"><div class="menu-card__image menu-card__image--four"><span>GOURMET</span></div><div class="menu-card__body"><small>REFEIÇÃO CLEAN FOODS</small><h3>Nhoque de Batata Doce com Patinho Moído</h3><p>Uma escolha especial para sair da mesmice.</p></div></article>
+              <article class="menu-card" aria-hidden="true"><div class="menu-card__image menu-card__image--one"><span>FRANGO</span></div><div class="menu-card__body"><small>REFEIÇÃO CLEAN FOODS</small><h3>Frango Desfiado com Arroz Integral e Legumes</h3><p>Leve, completa e pronta para a sua rotina.</p></div></article>
+              <article class="menu-card" aria-hidden="true"><div class="menu-card__image menu-card__image--two"><span>PATINHO</span></div><div class="menu-card__body"><small>REFEIÇÃO CLEAN FOODS</small><h3>Patinho Desfiado com Purê de Batata Doce e Legumes</h3><p>Proteína, cremosidade e vegetais em equilíbrio.</p></div></article>
+              <article class="menu-card" aria-hidden="true"><div class="menu-card__image menu-card__image--three"><span>PATINHO</span></div><div class="menu-card__body"><small>REFEIÇÃO CLEAN FOODS</small><h3>Escondidinho de Mandioca com Patinho Moído</h3><p>Comida de verdade com aquele sabor de casa.</p></div></article>
+              <article class="menu-card" aria-hidden="true"><div class="menu-card__image menu-card__image--four"><span>GOURMET</span></div><div class="menu-card__body"><small>REFEIÇÃO CLEAN FOODS</small><h3>Nhoque de Batata Doce com Patinho Moído</h3><p>Uma escolha especial para sair da mesmice.</p></div></article>
+            </div>
           </div>
 
           <div class="products__footer reveal">
             <p><span>+</span> Variedade para você não cair na mesmice.</p>
-            <a class="button button--outline" href="https://wa.me/5514991718448?text=Olá%2C%20quero%20conhecer%20o%20cardápio%20da%20Clean%20Foods" target="_blank" rel="noreferrer">Ver cardápio completo <span aria-hidden="true">↗</span></a>
+            <a class="button button--outline" href="https://cleanfoods.pedizap.com.br/" target="_blank" rel="noreferrer">Ver cardápio completo <span aria-hidden="true">↗</span></a>
           </div>
         </div>
       </section>
