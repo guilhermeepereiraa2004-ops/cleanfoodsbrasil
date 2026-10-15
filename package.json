@@ -1,0 +1,13 @@
+{
+  "name": "cleanfoods-brasil",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node preview-server.mjs",
+    "start": "node preview-server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
